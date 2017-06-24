@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="nl.mwensveen.cnc.feature"
+      label="%featureName"
+      version="2.2.0"
+      provider-name="%providerName"
+      plugin="nl.mwensveen.cnc-plugin">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="nl.mwensveen.cnc-plugin"
+         download-size="0"
+         install-size="0"
+         version="2.2.0"
+         unpack="false"/>
+
+</feature>

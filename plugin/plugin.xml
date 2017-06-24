@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+
+<plugin>
+   <extension point="org.eclipse.ui.commands">
+		<command
+        categoryId="org.eclipse.jdt.ui.category.source"
+        id="nl.mwensveen.cnc.commands.ConstantNameConverterCommand"
+        name="Convert to/from Constant name"/>
+   </extension>
+  
+   
+	<extension point="org.eclipse.ui.bindings">
+		<key
+        commandId="nl.mwensveen.cnc.commands.ConstantNameConverterCommand"
+        contextId="org.eclipse.jdt.ui.javaEditorScope"
+        schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+        sequence="Shift+Ctrl+Alt+X"/>
+	</extension>
+ <extension
+       point="org.eclipse.ui.handlers">
+    <handler
+          class="nl.mwensveen.constantnameconverter.ConstantNameConverterHander"
+          commandId="nl.mwensveen.cnc.commands.ConstantNameConverterCommand">
+       <activeWhen>
+          <reference
+                definitionId="nl.mwensveen.cnc.inEditor">
+          </reference></activeWhen>
+    </handler>
+ </extension>
+
+ <extension point="org.eclipse.core.expressions.definitions">
+    <definition id="nl.mwensveen.cnc.inEditor">
+		<and>
+	      <with variable="activeEditorId">
+	           <equals
+	                 value="org.eclipse.jdt.ui.CompilationUnitEditor">
+	           </equals>
+	      </with>
+	      <with variable="activePartId">
+		     <equals
+		           value="org.eclipse.jdt.ui.CompilationUnitEditor">
+		     </equals>
+	      </with>
+        </and>
+    </definition>
+</extension>
+</plugin>
