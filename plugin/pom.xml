@@ -4,7 +4,7 @@
    <parent>
       <groupId>nl.mwensveen.constantnameconverter</groupId>
       <artifactId>nl.mwensveen.cnc-project</artifactId>
-      <version>3.1.0</version>
+      <version>3.2.0</version>
    </parent>
 
    <artifactId>nl.mwensveen.cnc-plugin</artifactId>
@@ -12,7 +12,6 @@
    <name>Constant Name Converter - Plugin</name>
    <properties>
       <platform.version>[3.11,4.0)</platform.version>
-      <tycho-version>0.24.0</tycho-version>
    </properties>
    <dependencies>
       <dependency>
