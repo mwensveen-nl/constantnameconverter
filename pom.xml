@@ -127,7 +127,7 @@
    <repositories>
       <repository>
          <id>eclipse</id>
-         <url>http://download.eclipse.org/releases/2018-12</url>
+         <url>http://download.eclipse.org/releases/2019-03</url>
          <layout>p2</layout>
       </repository>
    </repositories>
