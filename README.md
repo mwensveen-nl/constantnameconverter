@@ -9,5 +9,5 @@ This is an Eclipse plugin that converts names of variables to constants and vice
 1. Press Ctrl + Alt + Shift + X
 
 #### Installation
-The plugin can be installed in Eclipse by using the update side.
+The plugin can be installed in Eclipse by using the update site.
 Which can be found [here](http://mwensveen-nl.github.io/constantnameconverter/)
