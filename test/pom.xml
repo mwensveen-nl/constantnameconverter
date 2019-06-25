@@ -5,7 +5,7 @@
    <parent>
       <groupId>nl.mwensveen.constantnameconverter</groupId>
       <artifactId>nl.mwensveen.cnc-project</artifactId>
-      <version>3.2.0</version>
+      <version>3.3.0</version>
    </parent>
 
    <artifactId>nl.mwensveen.cnc-plugin.test</artifactId>

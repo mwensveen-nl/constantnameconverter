@@ -2,7 +2,7 @@
 <feature
       id="nl.mwensveen.cnc.feature"
       label="%featureName"
-      version="3.2.0"
+      version="3.3.0"
       provider-name="%providerName"
       plugin="nl.mwensveen.cnc-plugin">
 
@@ -22,7 +22,7 @@
          id="nl.mwensveen.cnc-plugin"
          download-size="0"
          install-size="0"
-         version="3.2.0"
+         version="3.3.0"
          unpack="false"/>
 
 </feature>
